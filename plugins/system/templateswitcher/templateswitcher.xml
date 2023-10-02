@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0.0" type="plugin" group="system" method="upgrade">
+	<name>System - Template Switcher</name>
+	<author>Ilhom A. 666</author>
+	<authorEmail>ilhom666@list.ru</authorEmail>
+	<authorUrl>http://www.ilhom666.ru</authorUrl>
+	<creationDate>Jul 2014</creationDate>
+	<copyright>Copyright (C) 2014 Ilhom666 All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<version>1.1.0</version>
+	<description>Плагин для возможности переключения шаблонов</description>
+	<files>
+		<filename plugin="templateswitcher">templateswitcher.php</filename>
+	</files>
+</extension>

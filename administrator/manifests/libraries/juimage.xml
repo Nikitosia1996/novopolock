@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="library"
+           version="3.9"
+           method="upgrade">
+    <name>JUImage</name>
+    <libraryname>juimage</libraryname>
+    <creationDate>07.02.2023</creationDate>
+    <author>Denys Nosov</author>
+    <authorEmail>denys@joomla-ua.org</authorEmail>
+    <authorUrl>https://joomla-ua.org</authorUrl>
+    <license>https://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <copyright>(C) 2006-2023 Joomla! Ukraine. All rights reserved.</copyright>
+    <version>5.12</version>
+    <packager>Joomla! Ukraine</packager>
+    <packagerurl>https://joomla-ua.org</packagerurl>
+    <files folder="juimage">
+        <folder>src</folder>
+        <folder>vendor</folder>
+        <file>JUImage.php</file>
+        <file>noimage.png</file>
+        <file>blank.png</file>
+    </files>
+    <updateservers>
+        <server type="extension"
+                priority="1"
+                name="juimage">https://joomla-ua.org/update/lib/juimage.xml</server>
+    </updateservers>
+</extension>
