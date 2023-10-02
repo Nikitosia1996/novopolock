@@ -359,7 +359,7 @@ if ($custom_js = $this->params->get('custom_js', null))
 <script>
     if(document.documentElement.clientWidth < 500){
         let logo = document.getElementsByClassName("logo")[0];
-        logo.innerHTML = "<a href='/'><span style='color:#000000; font-size:14px;'>Жабинковская ЦРБ </span></a>";
+        logo.innerHTML = "<a href='/'><span style='color:#000000; font-size:14px;'>Новополоцкий городской центр гигиены и эпидемиологии </span></a>";
     }
     if(document.documentElement.clientWidth < 600) {
         let col1 = document.getElementsByClassName("column")[0];
