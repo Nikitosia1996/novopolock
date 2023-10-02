@@ -529,9 +529,6 @@ function exportTableToCSV(filename) {
 
         }
 
-
-
-
         let custom = document.getElementById("mod-custom123");
         let customch = custom.children[1];
         let customimg = customch.children[0];
@@ -541,31 +538,6 @@ function exportTableToCSV(filename) {
     </script>
 
     <script>
-
-
-
-
-        // Получаем "sp-main-body"
-        // var spMainBody = document.getElementById("sp-main-body");
-        //
-        // // Проверяем  класс "container"
-        // if (!spMainBody.querySelector(".container")) {
-        //     // Создаем элемент "container"
-        //     var container = document.createElement("div");
-        //     container.className = "container";
-        //
-        //     //  элемент "row"
-        //     var row = document.getElementsByClassName("row")[1];
-        //
-        //     // Добавляем элемент "row" внутрь элемента "container"
-        //     container.appendChild(row.innerHTML);
-        //
-        //     // Добавляем элемент "container" внутрь элемента "sp-main-body"
-        //     spMainBody.appendChild(container);
-        // }
-
-
-
 
          let spmainb = document.getElementById("sp-main-body");
          let containerdiv = document.createElement("div");
